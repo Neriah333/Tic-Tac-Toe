@@ -1,0 +1,20 @@
+.align-centre {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  height: 100vh;           /* full screen height */
+}
+
+.board-row {
+  display: flex;           /* row of buttons */
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  margin: 2px;
+  cursor: pointer;
+  border: 2px solid #333;
+  background: white;
+}
